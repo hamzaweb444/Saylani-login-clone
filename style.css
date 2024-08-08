@@ -1,0 +1,111 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1024px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 581px;
+    color: white;
+    background-color: #002062;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.logo{
+   
+    margin-top: 89px;
+}
+
+.login{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    margin-top: 25px;
+}
+
+.email, .pass{
+    display: flex;
+    width: 350px;
+    height: 48.4px;
+    border: 0.3px solid #4671C6;
+    border-radius: 10px;
+    padding-left: 15px;
+    align-items: center ;
+    gap: 15px;
+    background-color: #0F2D6B;
+}
+
+.i-email, .i-pass{
+    width: 226px;
+    height: 17px;
+    color: #9B9B9B;
+    border: none;
+    background-color: #0F2D6B;
+}
+
+.email{
+    margin-top: 40px;
+}
+
+.pass{
+    margin-top: 10px;
+}
+
+.f-pass{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    width: 360px;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 350px;
+    height: 45px;
+    border: 0.3px solid #4671C6;
+    border-radius: 10px;
+    background-color: #4671C6;
+}
+
+.i-sign{
+    color: white;
+    border: none;
+    background-color: #4671C6;
+    font-size: 20px;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 45.2px;
+    border: 0.3px solid #4671C6;
+    background-color: #0F2D6B;
+    border-radius: 15px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.i-google{
+    font-size: 16px;
+    color: #C1B6B6;
+    text-decoration: none;
+    padding-top: 3px;
+}
+
+.girl{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
